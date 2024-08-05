@@ -62,7 +62,7 @@ buttons.forEach(function (button) {
         pOut.classList.add("pOutClass");
 
         if (humanScore < 5 && computerScore < 5) {
-            const humanSelection = this.id
+            const humanSelection = this.id;
             const computerSelection = getComputerChoice();
 
             const outPut = playRound(humanSelection, computerSelection);
